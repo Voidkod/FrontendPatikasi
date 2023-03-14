@@ -1,0 +1,63 @@
+section {
+  margin-top: 5%;
+  width: 40%;
+  float: right;
+  height: auto;
+}
+
+h2,
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 32px;
+  color: #c9eeff;
+}
+/*h3 yazı fontu vurgu ve scroll bar çıkması için büyütüldü.*/
+/*h3 başlığı için tekrar aynı şeyi yazıp kendini tekrar etmemek için üstüne yazma(overriding) işlemi yaptım*/
+h3 {
+  font-size: 46px;
+}
+.box-top {
+  height: 10%;
+  background-color: #5e961a;
+  border-radius: 25px 255px 100px;
+}
+.box-top:hover,.box-button:hover{
+    height: 100px;
+    line-height: 40px;
+}
+.box-button {
+  height: 10%;
+  background-color: #34383a;
+  border-radius: 25px 255px 100px;
+}
+.box p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  color: white;
+  text-align: center;
+}
+.box p a {
+  text-decoration: none;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+/*paragrafların yazı fontu scroll bar çıkması için büyütüldü.*/
+p {
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+section ul li a{
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
+section ul{
+    margin-left: 10%;
+    margin-top: 10%;
+    list-style-position: inside;
+}
+section ul li a:hover{
+    font-size: 37px;
+}

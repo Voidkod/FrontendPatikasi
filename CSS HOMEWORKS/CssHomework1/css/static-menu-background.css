@@ -1,0 +1,55 @@
+body {
+  background-image: url(../img/cat-dog-fluffy-friendship-1064128-wallhere.com.jpg);
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  width: 100vw;
+  position: fixed;
+}
+header div{
+    display: inline-block;
+}
+.left-header {
+  margin-left: 20px;
+  font-size: 48px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  line-height: 10vh;
+  color: white;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 22%;
+}
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  font-size: 32px;
+  height: 50px;
+  width: 250px;
+  background-color: #62cdff;
+  margin-right: 20px;
+  line-height: 50px;
+  border-radius: 255px 10px;
+  transition: width 2s, height 1s, tranform 2s;
+}
+nav ul li:hover {
+  background-color: #97deff;
+  height: 75px;
+  width: 300px;
+  line-height: 75px;
+  border-radius: 25px 255px 100px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+nav ul li a:hover {
+  color: #3e54ac;
+}
