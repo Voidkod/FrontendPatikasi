@@ -1,0 +1,74 @@
+/*Ortalamalar*/
+header,
+main,
+footer,
+nav {
+  text-align: center;
+}
+
+/*Kök Div Tasarımı*/
+main,
+nav {
+  width: 89.704%;
+  margin: 1px auto;
+}
+/*Temel Etiketlerin Ayarları*/
+header {
+    height: 100px;
+}
+main {
+  background-color: #eeee;
+  height: 62px;
+  margin-top: 0;
+}
+p {
+  margin-bottom: 0;
+}
+li {
+  list-style-type: none;
+}
+/*Menü Ayarları*/
+.menu {
+  display: inline-block;
+  height: 74px;
+  padding: 1px;
+}
+
+#left-menu {
+  float: left;
+  background-color: #7ee5da;
+  width: 36.713%;
+}
+
+#mid-menu {
+  background-color: #70ccc2;
+  width: 19.29%;
+  font-size: small;
+}
+#right-menu {
+  background-color: #62b3aa;
+  float: right;
+  width: 43.173%;
+  font-size: small;
+}
+#right-menu button {
+  margin-right: 10px;
+}
+#right-menu p{
+    margin: 0;
+}
+ /*CSS Seçiciler*/
+#left-menu > :first-child {
+  margin-top: 10px;
+}
+#mid-menu > :first-child {
+  margin-top: 5px;
+}
+main:first-child {
+  margin-top: 1px;
+}
+/*Footer*/
+footer {
+  font-size: small;
+  margin-top: 18px;
+}
