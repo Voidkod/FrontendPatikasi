@@ -18,6 +18,6 @@ Hepinize başarılar ve kolay gelsin!
 
 Ödev 1
 
-İlk Web Sayfamızı Oluşturduk.
+İlk Html Ödevimizi Tamamladık :)
 
 ![htmlhomework1](https://github.com/user-attachments/assets/420b37b7-f529-4525-b816-2fe996b6f6d8)
